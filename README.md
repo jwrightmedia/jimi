@@ -12,10 +12,10 @@ This grid uses a Flexbox grid that shares relation to Bootstrap and Foundation's
 
 ### Breakpoints
 ---
-Large Screens `l` (not within a media query)
-Extra Large Screens `xl` (Media Query begins with `min-width:1441px`)
-Medium Screens (laptop/tablets) `m` (Media Query begins with `max-width:1068px`)
-Small Screens (Phones/small tablets) `s` (Media query begins with `max-width:734px`)
+Large Screens `l` (not within a media query)  
+Extra Large Screens `xl` (Media Query begins with `min-width:1441px`)  
+Medium Screens (laptop/tablets) `m` (Media Query begins with `max-width:1068px`)  
+Small Screens (Phones/small tablets) `s` (Media query begins with `max-width:734px`)  
 
 ## Copyright and license
 
