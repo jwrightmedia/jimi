@@ -1,7 +1,9 @@
 # jimi
 ---
 
-Simplified basic grid and typography styles. Standard reset, classes, and browser fixes that we all use. For something more complete, use Bootstrap or Foundation. 
+Simplified basic grid and typography styles. Standard reset, classes, browser fixes that we all use, and variables for consistent color usage. 
+
+For something more complete, use Bootstrap or Foundation.
 
 In alpha phase. Updating personal site to use this in order to replace Bootstrap. Will commit to beta phase upon completion.
 
