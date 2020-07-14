@@ -17,7 +17,11 @@ This grid uses a Flexbox grid that shares relation to Bootstrap and Foundation's
 Large Screens `l` (not within a media query)  
 Extra Large Screens `xl` (Media Query begins with `min-width:1441px`)  
 Medium Screens (laptop/tablets) `m` (Media Query begins with `max-width:1068px`)  
-Small Screens (Phones/small tablets) `s` (Media query begins with `max-width:734px`)  
+Small Screens (Phones/small tablets) `s` (Media query begins with `max-width:734px`)
+
+### Internet Explorer / Edge
+---
+This uses Flexbox (IE10+ w/ `-ms` prefix) and `--var` in the CSS, which is not supported in IE at all and only used in Edge 16+. IE11 came out in 2011, unless you have a very specific use case to have this site work for IE11 and back, this should work in all modern browsers. If you've got the unlucky opportunity to have one of those specific use cases, just code like it's 1999 and have fun.  
 
 ## Copyright and license
 
