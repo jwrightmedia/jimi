@@ -11,6 +11,13 @@
     --jm-teal: #20c997;
     --jm-green: #28a745;
     --jm-red: #dc3545;
+    /*** Above for general usage, below for style specific ***/
+    --jm-background: ;
+    --jm-bodytext: ;
+    --jm-heading: ;
+    --jm-headingfade: ;
+    --jm-defont: 16px;
+    --jw-example: /*Add your own, rename.*/;
 }
 *,
 *::before,
@@ -124,28 +131,24 @@ html {
     font-size: 106.25%;
 }
 body {
-    font-size: 17px;
-    line-height: 1.47059;
+    font-size: var(--jm-defont);
     font-weight: 400;
-    letter-spacing: -0.022em;
+    line-height: 1.3;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    background-color: #fff;
-    color: #1d1d1f;
     font-style: normal;
-}
-body {
+    background: var(--jm-background);
+    color: var(--jm-bodytext);
     word-break: break-word;
     overflow-wrap: break-word;
-    background: var(--nc-bg-1);
-    color: var(--nc-tx-2);
-    font-size: 1.03rem;
-    line-height: 1.5;
 }
 
 ::selection {
-    background: var(--nc-ac-1);
-    color: var(--nc-ac-tx);
+    background: var(--jw-example);
+    color: var(--jw-example);
 }
+
+/* Text Styles / Sizes */
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -219,6 +222,9 @@ abbr {
 abbr:hover {
     cursor: help;
 }
+
+/* Layout Defaults */
+
 .nowrap {
     display: inline-block;
     text-decoration: inherit;
@@ -304,6 +310,9 @@ abbr:hover {
     padding: 0;
     min-width: 0px;
 }
+
+/* Layout Sizes / Positions - Flexbox */
+/*** Large ***/
 .l-offset-0 {
     margin-left: 0;
 }
@@ -494,6 +503,9 @@ abbr:hover {
     flex: initial;
     max-width: initial;
 }
+
+/*** X-Large ***/
+
 @media only screen and (min-width: 1441px) {
     .xl-offset-0 {
         margin-left: 0;
@@ -686,6 +698,9 @@ abbr:hover {
         max-width: initial;
     }
 }
+
+/*** Medium ***/
+
 @media only screen and (max-width: 1068px) {
     .m-offset-0 {
         margin-left: 0;
@@ -878,6 +893,9 @@ abbr:hover {
         max-width: initial;
     }
 }
+
+/*** Small ***/
+
 @media only screen and (max-width: 734px) {
     .s-offset-0 {
         margin-left: 0;
@@ -1070,6 +1088,9 @@ abbr:hover {
         max-width: initial;
     }
 }
+
+/*** Large - Row Reserve ***/
+
 .row-reverse .column {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1122,6 +1143,9 @@ abbr:hover {
 .row-reverse .l-notlast {
     margin-right: 0;
 }
+
+/*** X-Large - Row Reserve ***/
+
 @media only screen and (min-width: 1441px) {
     .row-reverse .xl-offset-0 {
         margin-right: 0;
@@ -1169,6 +1193,9 @@ abbr:hover {
         margin-right: 0;
     }
 }
+
+/*** Medium - Row Reserve ***/
+
 @media only screen and (max-width: 1068px) {
     .row-reverse .m-offset-0 {
         margin-right: 0;
@@ -1216,6 +1243,9 @@ abbr:hover {
         margin-right: 0;
     }
 }
+
+/*** Small - Row Reserve ***/
+
 @media only screen and (max-width: 734px) {
     .row-reverse .s-offset-0 {
         margin-right: 0;
