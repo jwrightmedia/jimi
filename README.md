@@ -21,7 +21,7 @@ Small Screens (Phones/small tablets) `s` (Media query begins with `max-width:734
 
 ### Internet Explorer / Edge
 ---
-This uses Flexbox (IE10+ w/ `-ms` prefix) and `--var` in the CSS, which is not supported in IE at all and only used in Edge 16+. IE11 came out in 2011, unless you have a very specific use case to have this site work for IE11 and back, this should work in all modern browsers. If you've got the unlucky opportunity to have one of those specific use cases, just code like it's 1999 and have fun.  
+This uses Flexbox (IE10+ w/ `-ms` prefix) and `--var` in the CSS, which is not supported in IE at all and only used in Edge 16+. IE11 came out in 2011, unless you have a very specific use case to have this site work for IE11 and back, this should work in all modern browsers. If you've got the unlucky opportunity to have one of those specific use cases, just code like it's 2005 and have fun.  
 
 ## Copyright and license
 
