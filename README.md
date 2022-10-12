@@ -5,7 +5,9 @@ Simplified basic grid and typography styles. Standard reset, classes, browser fi
 
 For something more complete, use Bootstrap or Foundation.
 
-In alpha phase.
+`In beta testing phase on my own site, prepping for deployment for future sites`
+
+Coming soon: preprocessor (probably PostCSS)
 
 ## Grid
 ---
