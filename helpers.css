@@ -1,0 +1,85 @@
+/* Horizontal Lines */
+
+hr, .hr {
+	margin: 1rem 0;
+  	color: inherit;
+  	border: 0;
+  	border-top: 1px solid;
+  	opacity: 0.25;
+}
+
+hr.space-xs {
+    margin-bottom: 1em;
+    border: none;
+}
+hr.space-sm {
+    margin-bottom: 2em;
+    border: none;
+}
+hr.space-md {
+    margin-bottom: calc(3em + 1vw);
+    border: none;
+}
+hr.space-lg {
+    margin-bottom: calc(3em + 2vw);
+    border: none;
+}
+
+/* Buttons */
+
+button, .button {
+	padding: 0.9em 1em 0.7em;
+	font-size: 1rem;
+	line-height: 1.5;
+	background-color: #212529;
+	color: #fff;
+	display: inline-block
+	text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* Forms */
+
+form label, .form label {
+    display: block;
+}
+form input, form textarea, .form input, .form textarea {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background: #fff;
+    -webkit-appearance: none;
+    padding: 0.5em;
+    box-sizing: border-box;
+    border-radius: 0;
+    color: #333;
+    font-family: inherit;
+}
+form textarea, .form textarea {
+    width: 100%;
+}
+form input, .form input {
+    min-width: 70%;
+}
+@media screen and (min-width: 760px) {
+    form input, .form input {
+    	min-width: 350px;
+	}
+} 
+form select, .form select {
+    min-width: 50%;
+    display: block;
+    font-size: 1rem;
+    margin-top: 0.25em;
+    margin-left: 3px;
+}
+@media screen and (min-width: 760px) {
+    form select, .form select {
+    	min-width: 200px;
+	}
+}
