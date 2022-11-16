@@ -105,6 +105,15 @@ button:disabled {
     border: 0;
     padding: 0;
 }
+@-ms-viewport {
+    width: device-width;
+}
+@-o-viewport {
+    width: device-width;
+}
+@viewport {
+    width: device-width;
+}
 /* Text Styles / Sizes */
 
 a {
@@ -190,6 +199,12 @@ abbr:hover {
     max-width: 100%;
     height: auto;
 }
+
+/* To replace ^
+img, video {
+    max-width: 100%;
+    height: auto;
+}*/
 
 /* Layout Defaults */
 
