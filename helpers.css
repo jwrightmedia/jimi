@@ -65,6 +65,7 @@ form input, form textarea, .form input, .form textarea {
     border-radius: 0;
     color: #333;
     font-family: inherit;
+    min-width: 0px;
 }
 form textarea, .form textarea {
     width: 100%;
