@@ -6,6 +6,7 @@ Simplified basic grid and typography styles. Standard reset, classes, browser fi
 For something more complete, use Bootstrap or Foundation.
 
 `In beta testing phase on my own site, prepping for deployment for future sites`
+(Link)[http://jwrightmedia.com/]
 
 Coming soon: preprocessor (probably PostCSS)
 
@@ -29,5 +30,5 @@ This uses Flexbox (IE10+ w/ `-ms` prefix) and `--var` in the CSS, which is not s
 
 ## Copyright and license
 
-Copyright 2022 *jwrightmedia, LLC*, All Rights Reserved. 
+Copyright 2023 *jwrightmedia, LLC*, All Rights Reserved. 
 Let's be honest, this is basic CSS that most developers use. The copyright is more just don't steal the name and give credit where credit is due for the organization. 
