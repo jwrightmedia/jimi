@@ -6,7 +6,7 @@ Simplified basic grid and typography styles. Standard reset, classes, browser fi
 For something more complete, use Bootstrap or Foundation.
 
 `In beta testing phase on my own site, prepping for deployment for future sites`
-(Link)[http://jwrightmedia.com/]
+[Link](http://jwrightmedia.com/)
 
 Coming soon: preprocessor (probably PostCSS)
 
@@ -14,6 +14,8 @@ Coming soon: preprocessor (probably PostCSS)
 ---
 
 This grid uses a Flexbox grid that shares relation to Bootstrap and Foundation's grid. It is simplified for basic needs. Includes a few `justify-` helper classes as well as `-ungrow` to revert sections.
+
+Working on CSS Grid version...
 
 ### Breakpoints
 ---
